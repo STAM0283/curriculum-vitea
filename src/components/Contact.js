@@ -19,8 +19,8 @@ const Contact = (props) => {
     const handleObject = (e) => {
     setObject(e.target.value);
   };
-    const handleMessage = (e) => {
-        setMessage(e.target.value);
+    const handleMessage = (event) => {
+        setMessage(event.target.value);
     }
     const reinitialisation = () => {
         setName('');
@@ -36,7 +36,7 @@ const Contact = (props) => {
             object,
             message,
           };
-        axios.post("https://sendmail-nodemailer.herokuapp.com/send-email", data)
+        axios.post("https://cv-contact.herokuapp.com/send-email", data)
             .then(response => {
                 console.log("my data", response);
                 setSent(response.data);
