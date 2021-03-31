@@ -36,7 +36,7 @@ const Contact = (props) => {
             object,
             message,
           };
-        axios.post("https://git.heroku.com/sendmail-nodemailer.git/send-email", data)
+        axios.post("https://sendmail-nodemailer.herokuapp.com/send-email", data)
             .then(response => {
                 console.log("my data", response);
                 setSent(response.data);
