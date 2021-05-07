@@ -17,8 +17,6 @@ const NavBar = (props) => {
             <input type="radio" name="lang" id="fr" onClick={ () => setLanguage("fr")} />
             <label htmlFor="en">EN</label>
             <input type="radio" name="lang" id="en" onClick={ () => setLanguage("en")} />
-            <label htmlFor="ar">عر</label>
-            <input type="radio" name="lang" id="ar" onClick={() => setLanguage('ar')} />
           </div>
           <li>
             <NavLink exact activeClassName="current" to="/">

@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import MenuBurger from './MenuBurger'
 
 const Header = (props) => {
   const language = props.data.language;
@@ -10,6 +11,7 @@ const Header = (props) => {
               language,
               setLanguage
         }} />
+        <MenuBurger />
     </div>
   );
 };

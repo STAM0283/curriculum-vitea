@@ -61,7 +61,7 @@ const Accueil = (props) => {
                     <div style={{ width: "50%", padding: "0%" }}>
                         <img
                             className="profile-picture"
-                            style={{ marginBottom: "15%", width: "85%", transition: "all 3s ease-out" }}
+                            style={{ marginBottom: "15%", width: "70%"}}
                             src={photo_amine}
                             alt="profile"
                         />
