@@ -307,10 +307,6 @@ a.current button {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
-.experience div:hover{
-  -webkit-transform:scale(1.3);
-  transform:scale(1.3);
-}
 
 .formation {
   display: flex;
@@ -338,10 +334,6 @@ a.current button {
   flex-wrap: wrap;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-}
-.formation div:hover{
-  -webkit-transform:scale(1.3);
-  transform:scale(1.3);
 }
 
 .competences {
