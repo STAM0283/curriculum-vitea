@@ -341,10 +341,13 @@ a.current button {
 
 .competences {
   display: flex;
-  width: 90%;
-  margin-left: 5%;
+  border: 2px solid red;
+  width: 80%;
+  margin-left: 10%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 .competences h2 {
   text-align: center;
@@ -354,6 +357,7 @@ a.current button {
 }
 .competences h3{
   font-size: medium;
+  padding: 20px;
 }
 
 .languages {
@@ -364,9 +368,11 @@ a.current button {
   inset: 0px 0px 60px #00ffff;
   flex-wrap: wrap;
 }
-
+.otherCompetences {
+  display: flex;
+}
 .otherCompetences div {
-  width: 870px;
+  width: 400px;
   margin: 5px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
@@ -656,6 +662,14 @@ a.current button {
   }
   .accueil h1 {
     text-align: left;
+  }
+  .competences {
+    margin-top: 60px;
+  }
+  .competences div {
+    width: 500px;
+    border: 2px solid wheat;
+    padding: 30px;
   }
   .modalFooter button {
     height: 200px;

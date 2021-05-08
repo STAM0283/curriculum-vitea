@@ -40,7 +40,7 @@ const Competences = (props) => {
 
             </div>
             <section className = "otherCompetences">
-                <div style={{ textAlign: "start" , height: "255px"}}>
+                <div style={{ textAlign: "start"}}>
                     <h2>{language === "fr" ? "AUTRES COMPETENCES" : language === "en" ? "OTHER SKILLS" : "مهارات اخرى"}</h2>
                     <h3><img src={check} style={{ width: "3%" }} alt=""/> GIT</h3>
                     <h3><img src={check} style={{ width: "3%" }} alt=""/> GITHUB</h3>
