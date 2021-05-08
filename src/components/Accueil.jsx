@@ -49,7 +49,7 @@ const Accueil = (props) => {
         <div className="accueil">
             <div className="profile_pro">
 
-                <h1 style={{ color: "coral", fontSize: "xx-large", transition: "all 1s ease-out" }}>{choiceName()}</h1>
+                <h1 style={{ color: 'black', fontSize: "xx-large" }}>{choiceName()}</h1>
                 <h1 className="poste" style={{ transition: "all 3s ease-out" }}>{choiceProfile()}</h1>
                 <img className="profile-picture2" src={photo_amine2} alt="profile_picture" />
                 <div className="profile">
