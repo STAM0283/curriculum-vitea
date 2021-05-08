@@ -204,11 +204,12 @@ h1, h3 {
 
 .formContact {
   width: 30%;
+  border: 10px solid peru;
+  margin-top: 20px;
   font-size: x-large;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-
 .formContact button {
   background-color: teal;
   width: 150px;
@@ -341,7 +342,8 @@ a.current button {
 
 .competences {
   display: flex;
-  border: 2px solid red;
+  border: 10px solid wheat;
+  border-radius: 10px;
   width: 80%;
   margin-left: 10%;
   flex-wrap: wrap;
@@ -666,10 +668,19 @@ a.current button {
   .competences {
     margin-top: 60px;
   }
-  .competences div {
-    width: 500px;
+  .competences {
+    width: 90%;
+    margin-left: 5%;
     border: 2px solid wheat;
-    padding: 30px;
+  }
+  .languages h3 {
+    padding: 0;
+  }
+  .otherCompetences{
+    display: block;
+  }
+  .otherCompetences h3 {
+    padding: 0;
   }
   .modalFooter button {
     height: 200px;
@@ -819,6 +830,20 @@ a.current button {
   .otherCompetences div{
     width: 60%;
     margin-left: 20%;
+  }
+  .competences {
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid wheat;
+  }
+  .languages h3 {
+    padding: 0;
+  }
+  .otherCompetences{
+    display: block;
+  }
+  .otherCompetences h3 {
+    padding: 0;
   }
   .modalFooter button {
     height: 200px;
