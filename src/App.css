@@ -1,0 +1,864 @@
+/* -----------------------------CSS OF THE MENUBURGER -------------------------------- */
+#menu li {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 22px;
+}
+.navBurger{
+  display: none;
+}
+#menuToggle
+{
+display: block;
+width: 25px;
+position: absolute;
+top: 20px;
+left: 30px;
+z-index: 1;
+-webkit-user-select: none;
+user-select: none;
+}
+
+#menuToggle input
+{
+display: block;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;
+cursor: pointer;
+opacity: 0;
+z-index: 2;
+}
+#menuToggle span
+{
+display: block;
+width: 25px;
+height: 4px;
+margin-bottom: 5px;
+position: relative;
+background: black;
+border-radius: 3px;
+z-index: 1;
+transform-origin: 1px 0px;
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            opacity 0.55s;
+}
+
+#menuToggle span:first-child
+{
+transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span
+{
+opacity: 1;
+transform: rotate(45deg) translate(-2px, -1px);
+background: #232323;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+opacity: 0;
+transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+transform: rotate(-45deg) translate(0, -1px);
+}
+#menu
+{
+position: absolute;
+width: 300px;
+margin: -100px 0 0 -50px;
+padding: 50px;
+padding-top: 125px;
+
+background: #cfcdcd;
+list-style-type: none;
+/* -webkit-font-smoothing: antialiased; */
+transform-origin: 0% 0%;
+transform: translate(-100%, 0);
+
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menuToggle input:checked ~ ul
+{
+transform: none;
+}
+
+/* -----------------------------CSS OF THE HOME -------------------------------- */
+* {
+  margin: auto;
+}
+.languagesChange label {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.msg {
+  display: none;
+}
+
+.msgAppear {
+  display: block;
+}
+
+.App {
+  text-align: center;
+}
+
+.formation p, .experience P {
+  color: black;
+  font-size: 20px;
+}
+
+h2 {
+  background-color: teal;
+  padding: 20px;
+  font-size: large;
+}
+
+h1, h3 {
+  color: black;
+}
+.main {
+  background-color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.profile {
+  display: flex;
+}
+
+.header {
+  background-color: white;
+}
+
+.accueil {
+  width: 90%;
+}
+
+.accueil h1 {
+  text-align: center;
+}
+
+.accueil p {
+  font-size: x-large;
+  color: black;
+  width: 90%;
+  line-height: 45px;
+}
+
+.pdf {
+  width: 320px;
+  border-radius: 5px;
+  height: 60px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+}
+
+.footer {
+  background-color: white;
+}
+
+.modalFooter {
+  margin-left: 38%;
+}
+
+.navBar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navBar button {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 210px;
+  margin-top: 15px;
+  font-size: x-large;
+  font-weight: "bold",
+}
+
+.competences img {
+  width: 5%;
+}
+
+.formContact {
+  width: 30%;
+  font-size: x-large;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.formContact button {
+  background-color: teal;
+  width: 150px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.formContact input {
+  margin-bottom: 10px;
+}
+
+.contener {
+  height: 780px;
+}
+
+.contener h3 {
+  margin-top: 40px;
+}
+a.current button {
+  color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modalFooter button {
+  width: 320px;
+  border-radius: 5px;
+  height: 60px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+}
+
+.experience {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.experience p {
+  font-size: medium;
+  text-align: start;
+  margin-left: 10px;
+  color: black;
+}
+.experience div {
+  width: 700px;
+  height: 320px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.experience div:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.formation {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.formation p{
+  font-size: medium;
+  color: black;
+}
+.formation div {
+  width: 700px;
+  height: 320px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.formation div:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.competences {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.competences h2 {
+  text-align: center;
+}
+.competences img, h3 {
+  margin-left: 10px;
+}
+.competences h3{
+  font-size: medium;
+}
+
+.languages {
+  width: 400px;
+  margin: 40px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+
+.otherCompetences div {
+  width: 870px;
+  margin: 5px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+
+.profile_paragraphe {
+  width: 870px;
+  height: 320px;
+}
+
+.profile-picture2 {
+  display: none;
+}
+.profile-picture{
+  transform: scale(1.3);
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio img {
+  width: 400px;
+  height: 320px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+.portfolio div{
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.portfolio div:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.portfolio button:hover{
+  background-color: red;
+
+}
+.portfolio img:hover{
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 1024px){
+  .accueil {
+    display: block;
+    height: 1366px;
+  }
+  .accueil img{
+    width: 50%;
+  }
+  .accueil h1 {
+    text-align: center;
+    font-size: medium;
+  }
+  .profile-picture {
+    width: 400px;
+  }
+  .profile-picture2 {
+    display: none;
+    width: 230px;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 600px;
+  }
+  .profile_paragraphe p {
+    width: 900px;
+    height: 700px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: xx-large;
+    margin-left: 25px;
+    line-height: 60px;
+  }
+  .experience {
+    margin-left: 60px;
+  }
+  .experience div{
+    width: 950px;
+    height: 450px;
+    margin-left: -25px;
+
+  }
+  .formation {
+    margin-left: 60px;
+  }
+  .formation div{
+    width: 950px;
+    height: 400px;
+    margin-left: -25px;
+
+  }
+  .languages{
+    margin-left: 80px;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .portfolio img{
+    width: 600px;
+  }
+  .formContact {
+    width: 70%;
+    margin-top: 100px;
+    height: 70%;
+    color: wheat;
+    font-size: medium;
+    border: 4px solid peru;
+    padding-top: 30px;
+  }
+  .contener{
+    height: 1366px;
+  }
+  label{
+    font-size: 70px;
+  }
+  .contener input{
+    width: 500px;
+    height: 50px;
+    font-size: xx-large;
+  }
+  .contener textarea{
+    width: 500px;
+  }
+  .modalFooter button{
+    height: 40px;
+  }
+  .modalFooter{
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+
+}
+@media (max-width: 768px) {
+  progress {
+    margin-left: 3%;
+  }
+  .accueil {
+    display: block;
+    height: 1105px;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 30px;
+  }
+  .accueil h1 {
+    text-align: center;
+    font-size: medium;
+  }
+  .profile-picture {
+    width: 400px;
+  }
+  .profile-picture2 {
+    display: none;
+    width: 230px;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 600px;
+  }
+  .profile_paragraphe p {
+    width: 700px;
+    height: 550px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: xx-large;
+  }
+  .experience {
+    margin-left: 60px;
+  }
+  .experience div{
+    width: 700px;
+    height: 450px;
+    margin-left: -25px;
+
+  }
+  .formation {
+    margin-left: 60px;
+  }
+  .formation div{
+    width: 700px;
+    height: 400px;
+    margin-left: -25px;
+
+  }
+  .modalFooter button {
+    font-size: medium;
+  }
+  .portfolio img{
+    width: 600px;
+  }
+  .formContact {
+    width: 80%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: large;
+    border: 4px solid peru;
+    padding-top: 30px;
+  }
+  .otherCompetences div{
+    width: 650px;
+  }
+  .modalFooter button{
+    height: 40px;
+  }
+  .modalFooter{
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+
+}
+@media (max-width: 414px) {
+  .navBurger{
+    display: block;
+  }
+  .navBar {
+    display: none;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 230px;
+  }
+  .profile_paragraphe {
+    margin-left: 30px;
+    width: 1900px;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: medium;
+  }
+  h2 {
+    font-size: medium;
+  }
+  h1 {
+    font-size: medium;
+    height: 80%;
+    margin-left: 10%;
+  }
+  .experience div{
+    width: 90%;
+  }
+  .formation div{
+    width: 90%;
+  }
+  .experience p {
+    font-size: small;
+  }
+  .formation p {
+    font-size: small;
+  }
+  .profile_paragraphe p {
+    width: 320px;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 20px;
+  }
+  .accueil h1 {
+    text-align: left;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .navBar {
+    margin-left: -35px;
+  }
+  .modalFooter img {
+    display: none;
+  }
+  .modalFooter h1 {
+    font-size: large;
+    margin-left: 10px;
+  }
+  .modalFooter button {
+    height: 40px;
+    font-size: medium;
+    width: 180px;
+  }
+  .modalFooter {
+    margin-left: 10%;
+  }
+  .otherCompetences div{
+    width: 400px;
+  }
+  label{
+    font-size: x-large;
+  }
+  .portfolio img{
+    width: 280px;
+  }
+  .formContact {
+    width: 60%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: small;
+    border: 4px solid peru;
+  }
+  .formContact button {
+    background-color: teal;
+    width: 80px;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .formContact input {
+    margin-bottom: 20px;
+  }
+  .otherCompetences div{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .languages {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .contener {
+    height: 780px;
+  }
+  .contener h3 {
+    margin-top: 30px;
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .prenom {
+    margin-left: 10px;
+  }
+  .email {
+    margin-left: 10px;
+  }
+  textarea {
+    width: 200px;
+  }
+}
+
+@media  (max-width: 375px) {
+  .navBurger{
+    display: block;
+  }
+  .navBar {
+    display: none;
+  }
+  progress {
+    margin-left: 3%;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 230px;
+  }
+  .profile_paragraphe p {
+    width: 320px;
+    height: 540px;
+    margin-left: -20px;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 40px;
+  }
+  .accueil h1 {
+    text-align: left;
+  }
+  .profile_pro h1 {
+    margin-left: 25px;
+  }
+  h2 {
+    font-size: medium;
+  }
+  h1 {
+    font-size: medium;
+    margin-left: 5px;
+  }
+  .experience p {
+    font-size: small;
+  }
+  .experience div{
+    width: 90%;
+  }
+  .formation div{
+    width: 90%;
+  }
+  .formation p {
+    font-size: medium;
+  }
+  .otherCompetences div{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .navBar {
+    margin-left: -30px;
+    padding-left: 0%;
+  }
+  .modalFooter img {
+    display: none;
+  }
+  .modalFooter h1 {
+    font-size: large;
+    margin-left: 10px;
+  }
+  .modalFooter button {
+    height: 40px;
+    font-size: medium;
+    width: 180px;
+  }
+  .modalFooter {
+    margin-left: 10%;
+  }
+  .portfolio img{
+    width: 280px;
+  }
+  label{
+    font-size: large;
+  }
+  .formContact {
+    width: 80%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: small;
+    border: 4px solid peru;
+  }
+  .formContact button {
+    background-color: teal;
+    width: 80px;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .formContact input {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .formContact textarea{
+    width: 90%;
+  }
+  .contener {
+    height: 780px;
+  }
+  .contener h3 {
+    margin-top: 30px;
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .prenom {
+    margin-left: 10px;
+  }
+  .email {
+    margin-left: 10px;
+  }
+  textarea {
+    width: 180px;
+  }
+}
+@media (max-width: 360px){
+  .profile_paragraphe p{
+    margin-left: 7px;
+  }
+  .navBurger{
+    display: block;
+  }
+  .navBar {
+    display: none;
+  }
+}
