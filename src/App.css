@@ -115,21 +115,21 @@ transform: none;
 }
 
 .formation p, .experience P {
-  color: white;
-  font-weight: bold;
+  color: black;
   font-size: 20px;
 }
 
 h2 {
   background-color: teal;
+  padding: 20px;
   font-size: large;
 }
 
 h1, h3 {
-  color: whitesmoke;
+  color: black;
 }
 .main {
-  background-color: black;
+  background-color: white;
 }
 
 .App-logo {
@@ -142,7 +142,7 @@ h1, h3 {
 }
 
 .header {
-  background-color: black;
+  background-color: white;
 }
 
 .accueil {
@@ -155,7 +155,7 @@ h1, h3 {
 
 .accueil p {
   font-size: x-large;
-  color: white;
+  color: black;
   width: 90%;
   line-height: 45px;
 }
@@ -176,7 +176,7 @@ h1, h3 {
 }
 
 .footer {
-  background-color: black;
+  background-color: white;
 }
 
 .modalFooter {
@@ -205,7 +205,6 @@ h1, h3 {
 
 .formContact {
   width: 30%;
-  margin-top: 20px;
   color: wheat;
   font-size: x-large;
   border-radius: 10px;
@@ -284,10 +283,11 @@ a.current button {
   width: 90%;
   margin-left: 5%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .experience p {
   font-size: medium;
+  color: black;
 }
 .experience div {
   width: 600px;
@@ -309,10 +309,11 @@ a.current button {
   width: 90%;
   margin-left: 5%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .formation p{
   font-size: medium;
+  color: black;
 }
 .formation div {
   width: 600px;
@@ -806,7 +807,7 @@ a.current button {
     font-size: large;
   }
   .formContact {
-    width: 60%;
+    width: 80%;
     margin-top: 100px;
     height: 65%;
     color: wheat;
@@ -821,7 +822,10 @@ a.current button {
   }
   .formContact input {
     margin-bottom: 20px;
-    width: 180px;
+    width: 90%;
+  }
+  .formContact textarea{
+    width: 90%;
   }
   .contener {
     height: 780px;
