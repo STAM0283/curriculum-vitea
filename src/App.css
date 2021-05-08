@@ -588,6 +588,12 @@ a.current button {
 
 }
 @media (max-width: 414px) {
+  .navBurger{
+    display: block;
+  }
+  .navBar {
+    display: none;
+  }
   .profile-picture {
     display: none;
   }
@@ -839,5 +845,11 @@ a.current button {
 @media (max-width: 360px){
   .profile_paragraphe p{
     margin-left: 7px;
+  }
+  .navBurger{
+    display: block;
+  }
+  .navBar {
+    display: none;
   }
 }
