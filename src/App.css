@@ -834,18 +834,19 @@ a.current button {
   }
   label{
     font-size: large;
+    color: black;
   }
   .formContact {
-    width: 80%;
+    width: 90%;
     margin-top: 100px;
-    height: 65%;
+    height: 80%;
     color: wheat;
     font-size: small;
     border: 4px solid peru;
   }
   .formContact button {
     background-color: teal;
-    width: 80px;
+    width: 100px;
     font-size: medium;
     font-weight: bolder;
   }
