@@ -7,23 +7,23 @@ const Experience = (props) => {
   return (
     <div className="experience">
       <div className="experience1" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience3Fr : language === "en" ? data.experience1En : data.experience1Ar}</h2>
-        <p>{language === "fr" ? data.paragraph3Fr : language === "en" ? data.paragraph1En : data.paragraph1Ar}</p>
+        <h2>{language === "fr" ? data.experience3Fr : data.experience1En}</h2>
+        <p>{language === "fr" ? data.paragraph3Fr : data.paragraph1En}</p>
 
       </div>
       <div className="experience2" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience2Fr : language === "en" ? data.experience2En : data.experience2Ar}</h2>
-        <p>{language === "fr" ? data.paragraph2Fr : language === "en" ? data.paragraph2En : data.paragraph2Ar}</p>
+        <h2>{language === "fr" ? data.experience2Fr : data.experience2En}</h2>
+        <p>{language === "fr" ? data.paragraph2Fr : data.paragraph2En}</p>
 
       </div>
       <div className="experience3" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience1Fr : language === "en" ? data.experience3En : data.experience3Ar}</h2>
-        <p>{language === "fr" ? data.paragraph1Fr : language === "en" ? data.paragraph3En : data.paragraph3Ar}</p>
+        <h2>{language === "fr" ? data.experience1Fr : data.experience3En}</h2>
+        <p>{language === "fr" ? data.paragraph1Fr : data.paragraph3En}</p>
 
       </div>
       <div className="experience4" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience4Fr : language === "en" ? data.experience4En : data.experience4Ar}</h2>
-        <p>{language === "fr" ? data.paragraph4Fr : language === "en" ? data.paragraph4En : data.paragraph4Ar}</p>
+        <h2>{language === "fr" ? data.experience4Fr : data.experience4En}</h2>
+        <p>{language === "fr" ? data.paragraph4Fr : data.paragraph4En}</p>
       </div>
     </div>
   );
