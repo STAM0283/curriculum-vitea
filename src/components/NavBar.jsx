@@ -11,7 +11,7 @@ const NavBar = (props) => {
         <div className = "navBar">
             <nav>
         <ul> 
-        <div className="languagesChange" style={{border: '2px solid black', padding: '5px', backgroundColor: 'wheat', fontWeight: 'bold'}}>
+        <div className="languagesChange">
             <label htmlFor="fr">FR</label>
             <input type="radio" name="lang" id="fr" onClick={ () => setLanguage("fr")} />
             <label htmlFor="en">EN</label>
