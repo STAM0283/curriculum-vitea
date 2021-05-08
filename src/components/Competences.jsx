@@ -18,7 +18,7 @@ const Competences = (props) => {
     return (
         <div className="competences">
             <div style={{ textAlign: "start" }} className = "languages">
-                <h2>{language === "fr" ? "LANGUAGES ET PLATEFORMES" : language === "en" ? "LANGUAGES AND PLATFORMS" : "اللغات والمنصات"}</h2>
+                <h2>{language === "fr" ? "LANGUAGES ET PLATEFORMES" : "LANGUAGES AND PLATFORMS"}</h2>
                 <h3>HTML5<label htmlFor="file"></label>
                 <img src = {html5} alt="icone html5" /></h3>
                 <h3>CSS3<label htmlFor="file"></label>
@@ -29,7 +29,7 @@ const Competences = (props) => {
                 <img  style={{width: "10%"}} src = {node_js} alt="icone node js" /></h3>
                 <h3>MYSQL <label htmlFor="file"></label>
                     <img src={mysql} alt="icone mysql" /></h3>
-                <h2>{language === "fr" ? "FRAMEWORK ET BIBLIOTHÈQUE" : language === "en" ? "FRAMEWORK AND LIBRARY" : "أطر العمل والمكتبات"}</h2>
+                <h2>{language === "fr" ? "FRAMEWORK ET BIBLIOTHÈQUE" : "FRAMEWORK AND LIBRARY"}</h2>
                 <h3>BOOTSTRAP <label htmlFor="file"></label>
                 <img src={bootstrap} alt="icone bootstrap"/></h3>
                 <h3>REACT JS <label htmlFor="file"></label>
@@ -41,7 +41,7 @@ const Competences = (props) => {
             </div>
             <section className = "otherCompetences">
                 <div style={{ textAlign: "start"}}>
-                    <h2>{language === "fr" ? "AUTRES COMPETENCES" : language === "en" ? "OTHER SKILLS" : "مهارات اخرى"}</h2>
+                    <h2>{language === "fr" ? "AUTRES COMPETENCES" : "OTHER SKILLS"}</h2>
                     <h3><img src={check} style={{ width: "3%" }} alt=""/> GIT</h3>
                     <h3><img src={check} style={{ width: "3%" }} alt=""/> GITHUB</h3>
                     <h3><img src={check} style={{ width: "3%" }} alt=""/> SCRUM</h3>
@@ -52,17 +52,17 @@ const Competences = (props) => {
                 </div>
                 <div style={{ textAlign: "start" }}>
                     <h2>{language === "fr" ? "LANGUES" : language === "en" ? "LANGUAGES" : "اللغات"}</h2>
-                    <h3>{language === "fr" ? "FRANÇAIS" : language === "en" ? "FRENCH" : "الفرنسية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "COURANT" : language === "en" ? "FLUENT" : "بطلاقة"}</span></h3>                                  
-                    <h3>{language === "fr" ? "ANGLAIS" : language === "en" ? "ENGLISH" : "الإنجليزية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "INTERMÉDIAIRE" : language === "en" ? "INTERMIDIATE" : "متوسط"}</span></h3>
-                    <h3>{language === "fr" ? "ARABE" : language === "en" ? "ARABIC" : "العربية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "COURANT" : language === "en" ? "FLUENT" : "بطلاقة"}</span></h3>
+                    <h3>{language === "fr" ? "FRANÇAIS" : language === "en" ? "FRENCH" : "الفرنسية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "COURANT" : "FLUENT"}</span></h3>                                  
+                    <h3>{language === "fr" ? "ANGLAIS" : language === "en" ? "ENGLISH" : "الإنجليزية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "INTERMÉDIAIRE" : "INTERMIDIATE"}</span></h3>
+                    <h3>{language === "fr" ? "ARABE" : language === "en" ? "ARABIC" : "العربية"} : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>{language === "fr" ? "COURANT" : "FLUENT"}</span></h3>
                 </div>
                 <div style={{ textAlign: "start" }}>
-                    <h2>{language === "fr" ? "INTERETS" : language === "en" ? "INTERESTS" : "الاهتمامات"}</h2>
-                    <h3><img src={coding} alt="" />{language === "fr" ? "DEVELOPEMENT WEB" : language === "en" ? "WEB DEVELOPMENT" : "تطوير شبكة الإنترنت"}</h3>
-                    <h3><img src={innovation} alt=""/>{language === "fr" ? "INNOVATION" : language === "en" ? "INNOVATION" : "الابتكارات"}</h3>
-                    <h3><img src={sport} alt=""/>{language === "fr" ? "BASKETBALL" : language === "en" ? "BASKETBALL" : "كرة سلة"}</h3>
-                    <h3><img src={game} alt=""/>{language === "fr" ? "JEUX VIDEOS" : language === "en" ? "VIDEO GAMES" : "ألعاب الفيديو"}</h3>
-                    <h3><img src={travel} alt=""/>{language === "fr" ? "VOYAGER" : language === "en" ? "TRAVEL" : "السفر"}</h3>
+                    <h2>{language === "fr" ? "INTERETS" : "INTERESTS"}</h2>
+                    <h3><img src={coding} alt="" />{language === "fr" ? "DEVELOPEMENT WEB" : "WEB DEVELOPMENT"}</h3>
+                    <h3><img src={innovation} alt=""/>{language === "fr" ? "INNOVATION" : "INNOVATION"}</h3>
+                    <h3><img src={sport} alt=""/>{language === "fr" ? "BASKETBALL" : "BASKETBALL"}</h3>
+                    <h3><img src={game} alt=""/>{language === "fr" ? "JEUX VIDEOS" : "VIDEO GAMES"}</h3>
+                    <h3><img src={travel} alt=""/>{language === "fr" ? "VOYAGER" : "TRAVEL"}</h3>
                 </div>
             </section>
 
