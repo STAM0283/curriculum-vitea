@@ -7,10 +7,6 @@ const data = {
     experience2En : "Online training: Udemy JavaScript, Node Js / Mysql - Since March 2020.",
     experience3En : "Master's degree: International Relations and Exchanges Université Paris 13: 2010-2011",
     experience4En : "Master 2: Socio-Economics of Exchanges University of Paris 8: 2011-2012",
-    experience1Ar : "Bac +2 - مطور React JS / Node JS. في مدرسة Wild Code: من مايو 2020 إلى ديسمبر 2020",
-    experience2Ar : "التدريب عبر الإنترنت: Udemy JavaScript ، Node Js / Mysql - منذ مارس 2020.",
-    experience3Ar : "درجة الماجستير: العلاقات الدولية والتبادلات ، جامعة باريس 13: 2010-2011",
-    experience4Ar : "ماجستير 2: اجتماع - اقتصاديات التبادل جامعة باريس 8: 2011-2012",
     paragraph1Fr  : "L'intégration d'une interface utilisateur : HTML5 et CSS3.<br /> - Maîtrise le développement d'une application : Node.JS/Express.JS, JavaScript / React.<br /> - Apprendre à concevoir une base de données, écrire et optimiser les requêtes SQL(MySQL),<br />et utiliser un gestionnaire de versions (GIT)",
     paragraph2Fr  : "Formation complete sur JavaScript: la programmation orientée objet avec les fonctions  constructeurs, avec des classes, avec les objets littéraux, avec les prototypes .etc<br/>La maitrise de Visuel Studio Code, utiliser les API, entre autres ",
     paragraph3Fr  : "Ce Master 1 vise à intégrer les étudiants dans des secteurs et des champs caractérisés                 par leur dimension internationale(ONG, diplomatie/affaires étrangères/défense, entreprises multinationales, etc…)",
@@ -19,9 +15,5 @@ const data = {
     paragraph2En  : "Complete training on JavaScript: object-oriented programming with functions constructors, with classes, with literal objects, with prototypes .etc <br/>Mastery of Visual Studio Code, use APIs, among others",
     paragraph3En  : "This Master 1 aims to integrate students in sectors and fields characterized through their international dimension (NGOs, diplomacy / foreign affairs / defense, companies  multinationals, etc ...)",
     paragraph4En  : "understanding and analyzing southern societies in their mutations, transformations and interrelationships, by renewing the approaches and testing the concepts from the disciplines of sociology and political science, geography, educational sciences",
-    paragraph1Ar  : "تكامل واجهة المستخدم: HTML5 و CSS3. <br />- إتقان تطوير تطبيق: Node.JS / Express.JS ، JavaScript / React. <br />- تعلم كيفية تصميم قاعدة بيانات وكتابة وتحسين استعلامات SQL (MySQL) ، <br ​​/>واستخدام مدير الإصدار (GIT)",
-    paragraph2Ar  : "تدريب كامل على JavaScript: البرمجة الشيئية مع الوظائف المنشئات ، مع الفئات ، مع الكائنات الحرفية ، مع النماذج الأولية. إلخ. <br/>إتقان كود Visual Studio ، واستخدام واجهات برمجة التطبيقات ، من بين أمور أخرى",
-    paragraph3Ar  : "يهدف هذا الماجستير 1 إلى دمج الطلاب في القطاعات والمجالات المميزة من خلال أبعادها الدولية (المنظمات غير الحكومية ، الدبلوماسية / الشؤون الخارجية / الدفاع ، الشركات الشركات متعددة الجنسيات ، إلخ ...)",
-    paragraph4Ar  : "فهم وتحليل المجتمعات الجنوبية في طفراتها وتحولاتها وعلاقاتها المتبادلة ، بتجديد المناهج واختبار المفاهيم من تخصصات علم الاجتماع والعلوم السياسية والجغرافيا والعلوم التربوية"
  }
  export default data;
