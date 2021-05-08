@@ -290,6 +290,7 @@ a.current button {
   font-size: medium;
   text-align: start;
   margin-left: 10px;
+  padding: 5px;
   color: black;
 }
 .experience div {
@@ -317,7 +318,10 @@ a.current button {
   margin-top: 100px;
 }
 .formation p{
+  padding: 20px;
   font-size: medium;
+  text-align: start;
+  margin-left: 10px;
   color: black;
 }
 .formation div {

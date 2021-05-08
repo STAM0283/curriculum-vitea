@@ -15,7 +15,7 @@ const Formation = (props) => {
             </div>
             <div>
                 <h2>{language === "fr" ? data.experience3Fr : language === "en" ? data.experience3En : data.experience3Ar}</h2>
-                <p>{language === "fr" ? data.paragraph2Fr : language === "en" ? data.paragraph3En : data.paragraph3Ar}</p>
+                <p>{language === "fr" ? data.paragraph3Fr : language === "en" ? data.paragraph3En : data.paragraph3Ar}</p>
             </div>
             <div>
                 <h2>{language === "fr" ? data.experience4Fr : language === "en" ? data.experience4En : data.experience4Ar}</h2>
