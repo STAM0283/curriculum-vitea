@@ -7,8 +7,8 @@ const Experience = (props) => {
   return (
     <div className="experience">
       <div className="experience1" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience3Fr : data.experience1En}</h2>
-        <p>{language === "fr" ? data.paragraph3Fr : data.paragraph1En}</p>
+        <h2>{language === "fr" ? data.experience3Fr : data.experience3En}</h2>
+        <p>{language === "fr" ? data.paragraph3Fr : data.paragraph3En}</p>
 
       </div>
       <div className="experience2" style={{ transition: "all 1s ease-out" }}>
@@ -17,8 +17,8 @@ const Experience = (props) => {
 
       </div>
       <div className="experience3" style={{ transition: "all 1s ease-out" }}>
-        <h2>{language === "fr" ? data.experience1Fr : data.experience3En}</h2>
-        <p>{language === "fr" ? data.paragraph1Fr : data.paragraph3En}</p>
+        <h2>{language === "fr" ? data.experience1Fr : data.experience1En}</h2>
+        <p>{language === "fr" ? data.paragraph1Fr : data.paragraph1En}</p>
 
       </div>
       <div className="experience4" style={{ transition: "all 1s ease-out" }}>

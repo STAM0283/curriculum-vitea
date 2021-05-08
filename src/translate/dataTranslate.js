@@ -6,7 +6,7 @@ const dataFr = {
     experience4Fr : "Réceptionniste-équipier polyvalent, SARL EVE : Mai 2009 à Juin 2012",
     experience1En : "React JS and Node JS Developer (Learning) Wild Code School: May 2020 to December 2020",
     experience2En : "Business Manager Retail Trade and Collective Catering TOP ALIM: April 2014 to March 2019",
-    experience3En : "Retail Auto-Entrepreneur Manager: June 2012 to November 2014",
+    experience3En : "Passage of title Web Developer and Mobile Web (Bac + 2): 04/01/2021 - 28/04/2021",
     experience4En : "Versatile receptionist-team member, SARL EVE: May 2009 to June 2012",
     paragraph1Fr  : <p> <strong style={{color: 'red'}}>1)</strong> Refonte complète du site web du Festival international de théâtre - Sens Interdits ( avec <strong>Gatsby JS</strong>,
      <strong>Node Js</strong>, <strong>Strapi</strong> et <strong>Mysql</strong>).<br/> 
@@ -38,8 +38,21 @@ const dataFr = {
         e-health and telemedicine, in partnership with Doctolib & Dataiku, lasting 48 hours (in June 2020). <br/>
         <strong style = {{color: 'red'}}> 4) </strong> Creation of a team showcase site (in <strong> HTML5 </strong>, <strong> CSS3 </strong> and <strong > JavaScript </strong>)
         </p>,
-    paragraph2En  : "Purchase and sale of various Food Products in Lyon: The main missions that I led consisted of: Accounting and administrative management; Manage the structure's budgetary and material resources or plan operations financial; Welcome, advise and collect customers; Order the goods to put on sale; Ensure the replenishment of stocks.",
-    paragraph3En  : "Sale of various food products, prepare the goods and pack them in checkouts, ensure the management of its stocks and their replenishment. In case of crowds, we have to organize ourselves to serve all customers as quickly as possible.",
-    paragraph4En  : "Laundry, laundry, linen rental, cleaning, dry cleaning and dry cleaning, and the main tasks were: - Welcome clients; - Information; - Switchboard; - Product registration; - Collection; - Organization of the workplace; - Daily Accounting;",
+    paragraph2En  : <p> Purchase and sale of various Food Products in Lyon, the main missions I carried out consisted of: <br/> <br/>
+    <strong style = {{color: 'red'}}> 1) </strong> Accounting and administrative management; <br/>
+    <strong style = {{color: 'red'}}> 2) </strong> Manage the budgetary and material resources of the structure or plan financial operations; <br/>
+    <strong style = {{color: 'red'}}> 3) </strong> Welcome, advise and collect customers; Order the merchandise to put on sale; <br/>
+    <strong style = {{color: 'red'}}> 4) </strong> Ensure stock replenishment. </p>,
+    paragraph3En  : <p> The creation of an E-commerce site (<strong> ClassGo </strong>) from A to Z, in <strong> React JS (Hooks) </strong>, <strong> Node JS </strong> ,
+    <strong> Express JS </strong> and <strong> Mysql </strong>: <br/> <br/>
+   <strong style = {{color: 'red'}}> 1) </strong> The creation of the website logo and graphic models using <strong> Figma </strong>. <br/>
+   <strong style = {{color: 'red'}}> 2) </strong> Modeling and creation of the project database on Mysql workbench and Mysql CLI. <br/>
+   <strong style = {{color: 'red'}}> 3) </strong> The creation of the API in Node JS and Express JS. <br/>
+   <strong style = {{color: 'red'}}> 4) </strong> The creation of the Front-end with a back-office in React JS (Hooks and JSX) and CSS3. </p>,
+    paragraph4En  : <p> Laundry, laundry, linen rental, cleaning, dry cleaning and dry cleaning, and the main missions were: <br/> <br/>
+    <strong style = {{color: 'red'}}> 1) </strong> Welcome and inform Customers; <br/>
+    <strong style = {{color: 'red'}}> 2) </strong> Telephone switchboard, and product registration; <br/>
+    <strong style = {{color: 'red'}}> 3) </strong> Collection and organization of the workplace <br/>
+    <strong style = {{color: 'red'}}> 4) </strong> Daily accounting </p>,
 }
  export default dataFr;
