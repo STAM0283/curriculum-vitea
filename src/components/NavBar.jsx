@@ -7,7 +7,6 @@ const NavBar = (props) => {
   const language = props.data.language;
   const menuFr = ["ACCUEIL", "EXPERIENCE", "FORMATION", "COMPETENCES", "PORTFOLIO", "CONTACT MAIL"];
   const menuEn = ["HOME", "EXPERIENCE", "TRAINING", "SKILLS", "PORTFOLIO","CONTACT MAIL"];
-  const menuAr = ["الصفحة الرئيسية", "الخبرة", "التدريب", "المهارات", "المحفظة", "البريد الإلكتروني"];
     return (
         <div className = "navBar">
             <nav>
@@ -24,7 +23,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary btn-lg"
               >
-                { language === "fr" ? menuFr[0] : language === "en" ? menuEn[0] : menuAr[0]}
+                { language === "fr" ? menuFr[0] : menuEn[0]}
               </button>
             </NavLink>
           </li>
@@ -34,7 +33,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary"
               >
-                { language === "fr" ? menuFr[1] : language === "en" ? menuEn[1] : menuAr[1]}
+                { language === "fr" ? menuFr[1] : menuEn[1]}
               </button>
             </NavLink>
           </li>
@@ -44,7 +43,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary"
               >
-            { language === "fr" ? menuFr[2] : language === "en" ? menuEn[2] : menuAr[2]}
+            { language === "fr" ? menuFr[2] : menuEn[2]}
               </button>
             </NavLink>
           </li>
@@ -54,7 +53,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary"
               >
-            { language === "fr" ? menuFr[3] : language === "en" ? menuEn[3] : menuAr[3]}
+            { language === "fr" ? menuFr[3] : menuEn[3]}
               </button>
             </NavLink>
           </li>
@@ -64,7 +63,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary"
               >
-            { language === "fr" ? menuFr[4] : language === "en" ? menuEn[4] : menuAr[4]}
+            { language === "fr" ? menuFr[4] : menuEn[4]}
               </button>
             </NavLink>
           </li>
@@ -74,7 +73,7 @@ const NavBar = (props) => {
                 type="button"
                 className="btn btn-outline-primary"
               >
-            { language === "fr" ? menuFr[5] : language === "en" ? menuEn[5] : menuAr[5]}
+            { language === "fr" ? menuFr[5] : menuEn[5]}
               </button>
             </NavLink>
           </li>
