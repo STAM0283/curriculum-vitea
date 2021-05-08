@@ -1,7 +1,6 @@
 /* -----------------------------CSS OF THE MENUBURGER -------------------------------- */
 #menu li {
-  color: blue;
-  font-weight: bold;
+  color: black;
   cursor: pointer;
   padding: 10px 0;
   font-size: 22px;
@@ -81,7 +80,7 @@ margin: -100px 0 0 -50px;
 padding: 50px;
 padding-top: 125px;
 
-background: #cfcdcd;
+background: wheat;
 list-style-type: none;
 /* -webkit-font-smoothing: antialiased; */
 transform-origin: 0% 0%;
@@ -616,6 +615,9 @@ a.current button {
     width: 1900px;
     margin-top: 30px;
   }
+  .accueil {
+    margin-top: 100px;
+  }
   h3 {
     font-size: medium;
   }
@@ -758,10 +760,13 @@ a.current button {
     line-height: 40px;
   }
   .accueil h1 {
-    text-align: left;
+    text-align: center;
   }
   .profile_pro h1 {
     margin-left: 25px;
+  }
+  .accueil {
+    margin-top: 100px;
   }
   h2 {
     font-size: medium;
