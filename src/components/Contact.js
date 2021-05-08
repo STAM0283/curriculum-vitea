@@ -54,32 +54,32 @@ const Contact = (props) => {
 
     return (
         <div className="contener">
-            <h3>{language === "fr" ? "FORMULAIRE DE CONTACT" : language === "en" ? "Contact form" : "نموذج الاتصال"}</h3>
+            <h3>{language === "fr" ? "FORMULAIRE DE CONTACT" : "Contact form"}</h3>
             <form onSubmit={formSubmit} className="formContact">
                 <div>
-                    <label htmlFor="name">{language === "fr" ? "Nom" : language === "en" ? "Name" : "اللقب"}</label>
+                    <label htmlFor="name">{language === "fr" ? "Nom" : "Name"}</label>
                     <br />
-                    <input value={name} className="name" type="text" name="name" placeholder={language === "fr" ? "Votre nom" : language === "en" ? "Your name" : "اسم العائلة"} onChange={handleName} />
+                    <input value={name} className="name" type="text" name="name" placeholder={language === "fr" ? "Votre nom" : "Your name"} onChange={handleName} />
                 </div>
                 <div>
-                    <label htmlFor="email">{language === "fr" ? "E-mail" : language === "en" ? "E-mail" : "بريد إلكتروني"}</label>
+                    <label htmlFor="email">{language === "fr" ? "E-mail" : "E-mail"}</label>
                     <br />
-                    <input value={email} className="email" type="email" name="email" placeholder={language === "fr" ? "Votre email" : language === "en" ? "Your email" : "بريدك الإلكتروني"} onChange={handleEmail} />
+                    <input value={email} className="email" type="email" name="email" placeholder={language === "fr" ? "Votre email" : "Your email"} onChange={handleEmail} />
                 </div>
                 <div>
                     <label htmlFor="object">{language === "fr" ? "Objet" : language === "en" ? "Object" : "الموضوع"}</label>
                     <br />
-                    <input value={object} className="object" type="text" name="object" placeholder={language === "fr" ? "Objet" : language === "en" ? "Object" : "الموضوع"} onChange={handleObject} />
+                    <input value={object} className="object" type="text" name="object" placeholder={language === "fr" ? "Objet" : "Object"} onChange={handleObject} />
                 </div>
                 <div>
-                    <label htmlFor="message">{language === "fr" ? "Message" : language === "en" ? "Message" : "الرسالة"}</label>
+                    <label htmlFor="message">{language === "fr" ? "Message" : "Message"}</label>
                     <br />
-                    <textarea value={message} cols="40" rows="6" className="message" type="text" name="message" placeholder={language === "fr" ? "Votre message" : language === "en" ? "your message" : "رسالتك"} onChange={handleMessage} />
+                    <textarea value={message} cols="40" rows="6" className="message" type="text" name="message" placeholder={language === "fr" ? "Votre message" : "your message"} onChange={handleMessage} />
                 </div>
-                <div className={sent ? "msg msgAppear" : "msg"}>{language === "fr" ? "Le message a été envoyé" : language === "en" ? "Message has been sent" : "تم ارسال الرسالة"}</div>
+                <div className={sent ? "msg msgAppear" : "msg"}>{language === "fr" ? "Le message a été envoyé" : "Message has been sent"}</div>
                 <div className="btn">
                     <button type="submit">{language === "fr" ? "Envoyer" : language === "en" ? "Send" : "إرسال"}</button>
-                    <button type="button" id="btn2" onClick={reinitialisation}>{language === "fr" ? "Réinitialiser" : language === "en" ? "Reset" : "إعادة ضبط"}</button>
+                    <button type="button" id="btn2" onClick={reinitialisation}>{language === "fr" ? "Réinitialiser" : "Reset"}</button>
                 </div>
             </form>
 
