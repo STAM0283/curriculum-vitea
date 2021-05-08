@@ -10,13 +10,13 @@ const NavBar = (props) => {
     return (
         <div className = "navBar">
             <nav>
-        <ul>
+        <ul> 
         <div className="languagesChange" style={{border: '2px solid black', padding: '5px', backgroundColor: 'wheat', fontWeight: 'bold'}}>
             <label htmlFor="fr">FR</label>
             <input type="radio" name="lang" id="fr" onClick={ () => setLanguage("fr")} />
             <label htmlFor="en">EN</label>
             <input type="radio" name="lang" id="en" onClick={ () => setLanguage("en")} />
-          </div>
+          </div>      
           <li>
             <NavLink exact activeClassName="current" to="/">
               <button

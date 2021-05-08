@@ -101,6 +101,10 @@ transform: none;
   margin-right: 5px;
   margin-left: 5px;
 }
+.languagesChange {
+  width: 100px;
+  border-radius: 5px;
+}
 .msg {
   display: none;
 }
@@ -608,8 +612,14 @@ a.current button {
   .navBurger{
     display: block;
   }
-  .navBar {
+  .navBar li {
     display: none;
+  }
+  .languagesChange {
+    width: 120px;
+    display: flex;
+    margin-top: 20px;
+    font-size: x-small;
   }
   .profile-picture {
     display: none;
@@ -777,8 +787,11 @@ a.current button {
   .navBurger{
     display: block;
   }
-  .navBar {
+  .navBar nav {
     display: none;
+  }
+  .languagesChange {
+    width: 20px;
   }
   progress {
     margin-left: 3%;
