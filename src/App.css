@@ -603,6 +603,9 @@ a.current button {
 
 }
 @media (max-width: 414px) {
+  .accueil {
+    height: 470px;
+  }
   .navBurger{
     display: block;
   }
