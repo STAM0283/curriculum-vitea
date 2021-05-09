@@ -8,27 +8,21 @@ const MenuBurger = (props) => {
   const history = useHistory();
   const homeDirection = () => {
     history.push('/');
-    document.location.reload();
   };
   const experienceDirection = () => {
     history.push('/experience');
-    document.location.reload();
   };
   const formationDirection = () => {
     history.push('/formation');
-    document.location.reload();
   };
   const comptetenceDirection = () => {
     history.push('/competences');
-    document.location.reload();
   };
   const portfolioDirection = () => {
     history.push('/portfolio');
-    document.location.reload();
   };
   const contactDirection = () => {
     history.push('/contact');
-    document.location.reload();
   };
   return (
     <nav role="navigation" className="navBurger">
