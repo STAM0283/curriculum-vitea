@@ -40,9 +40,10 @@ const Accueil = (props) => {
         return (
         <div className="accueil">
             <div className="profile_pro">
-
-                <h1 style={{ color: 'black', fontSize: "xx-large" }}>{choiceName()}</h1>
-                <h1 className="poste" style={{color: 'peru'}}>{choiceProfile()}</h1>
+                <div style={{textAlign: 'center'}} className="nameProfile">
+                  <h1 style={{ color: 'black', fontSize: "x-large" }}>{choiceName()}</h1>
+                  <h1 className="poste" style={{color: 'peru'}}>{choiceProfile()}</h1>
+                </div>
                 <img className="profile-picture2" src={photo_amine2} alt="profile_picture" />
                 <div className="profile">
                     <div className="profile_paragraphe">

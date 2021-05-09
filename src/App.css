@@ -97,6 +97,11 @@ transform: none;
 * {
   margin: auto;
 }
+.nameProfile h1{
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
 .languagesChange label {
   margin-right: 5px;
   margin-left: 5px;
