@@ -101,7 +101,6 @@ transform: none;
   text-align: center;
   width: 80%;
   margin-left: 10%;
-  border: 2px solid red;
 }
 .languagesChange label {
   margin-right: 5px;
@@ -611,9 +610,8 @@ a.current button {
     display: none;
   }
   .nameProfile h1{
-    text-align: center;
     font-size: large;
-    border: 2px solid purple;
+    text-align: center;
     width: 80%;
     margin-left: 10%;
   }
@@ -792,7 +790,6 @@ a.current button {
   .nameProfile h1{
     text-align: center;
     font-size: large;
-    border: 2px solid yellow;
     width: 80%;
     margin-left: 10%;
   }
@@ -950,7 +947,6 @@ a.current button {
   .nameProfile h1{
     text-align: center;
     font-size: large;
-    border: 2px solid green;
     width: 80%;
     margin-left: 10%;
 }
@@ -959,6 +955,5 @@ a.current button {
   .nameProfile h1{
     text-align: center;
     width: 100%;
-    border: 2px solid pink;
   }
 }
