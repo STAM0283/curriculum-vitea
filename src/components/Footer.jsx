@@ -24,9 +24,11 @@ const Footer = (props) => {
       >
         <div className="modalFooter">
           <img alt="hide_modal" src={hide_modal} style={{ width: "5%" }} />
-          <button className="hideModal" onClick={() => setModalIsOpen(false)}>{language === "fr" ? "Masquer le modal" : language === "en" ? "Hide the modal" : "إخفاء مشروط"}</button>
+          <button className="hideModal" onClick={() => setModalIsOpen(false)}>
+            {language === "fr" ? "Masquer le modal" : "Hide the modal"}
+          </button>
           <h1 style={{ marginTop: "50px", color: "whitesmoke", marginLeft: "30px" }}>
-            {language === "ar" ? "امين اسطامبولي" : "STAMBOULI AMINE"}
+            "STAMBOULI AMINE"
           </h1>
           <img src={linkedin} style={{ width: "5%" }} alt="myLinkedin" />
           <a
@@ -48,9 +50,9 @@ const Footer = (props) => {
 
           <img src={email} style={{ width: "5%" }} alt="My E-mail" />
           <button style={{ height: "80px" }}>
-            aminestambouli00780
+            aminestambouli90
             <br />
-            @gmail.com
+            @yahoo.fr
           </button>
           <br />
           <img src={phone} style={{ width: "5%" }} alt="My Phone" />
@@ -59,7 +61,7 @@ const Footer = (props) => {
           <img src={pdf} style={{ width: "5%" }} alt="myProfile" />
           <a href={AMINE_STAMBOULI_CV} target="_blank" rel="noopener noreferrer">
             <button className="pdf">
-               {language === "fr" ? "Télécharger le CV" : language === "en" ? "Download CV" : "تحميل السيرة الذاتية"}
+               {language === "fr" ? "Télécharger le CV" : "Download CV"}
             </button>
           </a>
 
@@ -78,7 +80,7 @@ const Footer = (props) => {
           marginTop: "10px",
         }}
       >
-        {language === "fr" ? "CONTACTS" : language === "en" ? "CONTACTS" : "جهات الاتصال"}
+        {language === "fr" ? "CONTACTS" : "CONTACTS"}
       </button>
     </div>
   );
