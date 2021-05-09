@@ -101,6 +101,7 @@ transform: none;
   text-align: center;
   width: 60%;
   margin-left: 20%;
+  border: 2px solid red;
 }
 .languagesChange label {
   margin-right: 5px;
@@ -783,8 +784,10 @@ a.current button {
 @media  (max-width: 375px) {
   .nameProfile h1{
     text-align: center;
-    width: 70%;
-    margin-left: 15%;
+    font-size: large;
+    border: 2px solid yellow;
+    width: 80%;
+    margin-left: 10%;
   }
   .navBurger{
     display: block;
@@ -937,10 +940,18 @@ a.current button {
   .navBar {
     display: none;
   }
+  .nameProfile h1{
+    text-align: center;
+    font-size: large;
+    border: 2px solid green;
+    width: 80%;
+    margin-left: 10%;
+}
 }
 @media  (max-width: 320px) {
   .nameProfile h1{
     text-align: center;
     width: 100%;
+    border: 2px solid pink;
   }
 }
