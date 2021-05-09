@@ -11,7 +11,10 @@ const Header = (props) => {
               language,
               setLanguage
         }} />
-        <MenuBurger />
+        <MenuBurger data ={{
+              language,
+              setLanguage
+        }} />
     </div>
   );
 };

@@ -21,7 +21,11 @@ const data = {
     paragraph4Fr  : <p>la compréhension et à l’analyse des sociétés du Sud dans leurs mutations, transformations et interrelations,
     en renouvelant les approches et en éprouvant les concepts à partir des disciplines de la sociologie et de la science politique, 
     de la géographie, des sciences de l’éducation"</p>,
-    paragraph1En  : "The integration of a user interface: HTML5 and CSS3. <br />- Master the development of an application: Node.JS / Express.JS, JavaScript / React. <br />- Learn to design a database, write and optimize SQL queries (MySQL), <br />and use a version manager (GIT)",
+    paragraph1En  : <p>
+    <strong style={{color: 'red'}}>1)</strong> The integration of a user interface: HTML5 and CSS3. <br />
+    <strong style={{color: 'red'}}>2)</strong> Learn the development of an application: Node.JS / Express.JS, JavaScript / React. <br />
+    <strong style={{color: 'red'}}>3)</strong> Learn to design a database, write and optimize SQL queries (MySQL), <br />
+    <strong style={{color: 'red'}}>4)</strong> and use a version manager (GIT)</p>,
     paragraph2En  : "Complete training on JavaScript: object-oriented programming with functions constructors, with classes, with literal objects, with prototypes .etc <br/>Mastery of Visual Studio Code, use APIs, among others",
     paragraph3En  : "This Master 1 aims to integrate students in sectors and fields characterized through their international dimension (NGOs, diplomacy / foreign affairs / defense, companies  multinationals, etc ...)",
     paragraph4En  : "understanding and analyzing southern societies in their mutations, transformations and interrelationships, by renewing the approaches and testing the concepts from the disciplines of sociology and political science, geography, educational sciences",

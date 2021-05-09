@@ -207,7 +207,7 @@ h1, h3 {
 }
 
 .formContact {
-  width: 30%;
+  width: 40%;
   border: 10px solid peru;
   margin-top: 20px;
   font-size: x-large;
@@ -298,14 +298,12 @@ a.current button {
   color: black;
 }
 .experience div {
-  width: 700px;
-  height: 320px;
+  width: 650px;
+  height: 330px;
   margin: 20px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
   inset: 0px 0px 60px #00ffff;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
 .formation {
@@ -325,7 +323,7 @@ a.current button {
   color: black;
 }
 .formation div {
-  width: 700px;
+  width: 650px;
   height: 320px;
   margin: 20px;
   border: solid 5px wheat;
@@ -344,7 +342,7 @@ a.current button {
   margin-left: 10%;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 .competences h2 {
@@ -355,11 +353,10 @@ a.current button {
 }
 .competences h3{
   font-size: medium;
-  padding: 20px;
 }
 
 .languages {
-  width: 400px;
+  width: 380px;
   margin: 40px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
@@ -370,7 +367,7 @@ a.current button {
   display: flex;
 }
 .otherCompetences div {
-  width: 400px;
+  width: 250px;
   margin: 5px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
@@ -613,6 +610,9 @@ a.current button {
     margin-top: 20px;
     font-size: x-small;
   }
+  .languagesChange label {
+    font-size: medium;
+  }
   .profile-picture {
     display: none;
   }
@@ -784,6 +784,9 @@ a.current button {
   }
   .languagesChange {
     width: 20px;
+  }
+  .languagesChange label {
+    font-size: small;
   }
   progress {
     margin-left: 3%;
