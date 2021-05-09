@@ -99,8 +99,8 @@ transform: none;
 }
 .nameProfile h1{
   text-align: center;
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
   border: 2px solid red;
 }
 .languagesChange label {
@@ -609,6 +609,13 @@ a.current button {
   }
   .navBar li {
     display: none;
+  }
+  .nameProfile h1{
+    text-align: center;
+    font-size: large;
+    border: 2px solid purple;
+    width: 80%;
+    margin-left: 10%;
   }
   .languagesChange {
     width: 120px;
