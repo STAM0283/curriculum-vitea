@@ -12,7 +12,7 @@ const Accueil = (props) => {
         const paragraphProfileEn = "With my passion for the field of web development and a great sense of curiosity, I am a dynamic, rigorous person, and very invested in my work. I want to integrate a dynamic company, whose vector of success and the human dimension are essential, but also a company which will know how to support me to reach my true potential."
         const nameFr = "STAMBOULI AMINE";
         const nameEn = "STAMBOULI AMINE";
-        const profileFr = "developpeur React js/Node JS";
+        const profileFr = "Developpeur React js/Node JS";
         const profilrEn = "React js/Node JS developer";
         const choiceLanguage = () => {
             if (language === "fr") {
