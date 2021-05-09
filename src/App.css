@@ -781,6 +781,11 @@ a.current button {
 }
 
 @media  (max-width: 375px) {
+  .nameProfile h1{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+  }
   .navBurger{
     display: block;
   }
@@ -814,9 +819,6 @@ a.current button {
   }
   .accueil h1 {
     text-align: center;
-  }
-  .profile_pro h1 {
-    margin-left: 25px;
   }
   .accueil {
     margin-top: 100px;
