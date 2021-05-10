@@ -8,7 +8,6 @@ const Contact = (props) => {
     const [email, setEmail] = useState("");
     const [object, setObject] = useState('');
     const [message, setMessage] = useState("");
-    const [sent, setSent] = useState("");
     const [displayParagraph, setDisplayParagraph] = useState('none');
     const [displayParagraph2, setDisplayParagraph2] = useState('none');
     const messageSentFr = "votre message a été envoyé avec succès";
@@ -46,7 +45,6 @@ const Contact = (props) => {
             axios.post("https://cv-contact.herokuapp.com/send-email", data)
             .then(response => {
                 console.log("my data", response);
-                setSent(response.data);
                 setName("");
                 setEmail("");
                 setObject("");
@@ -91,7 +89,6 @@ const Contact = (props) => {
                     <br />
                     <textarea value={message} cols="40" rows="6" className="message" type="text" name="message" placeholder={language === "fr" ? "Votre message" : "your message"} onChange={handleMessage} />
                 </div>
-                <div className={sent ? "msg msgAppear" : "msg"}>{language === "fr" ? "Le message a été envoyé" : "Message has been sent"}</div>
                 <p style={{
           display: `${displayParagraph}`, color: 'green', fontWeight: 'bold', marginBottom: '10px', width: '60%', marginLeft: '20%',
         }}

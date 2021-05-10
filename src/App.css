@@ -221,9 +221,10 @@ h1, h3 {
 }
 .formContact button {
   background-color: teal;
-  width: 150px;
-  font-size: x-large;
-  font-weight: bolder;
+  width: 100px;
+  font-size: medium;
+  margin: 10px;
+  color: white;
 }
 
 .formContact input {
