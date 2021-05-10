@@ -90,13 +90,13 @@ const Contact = (props) => {
                     <textarea value={message} cols="40" rows="6" className="message" type="text" name="message" placeholder={language === "fr" ? "Votre message" : "your message"} onChange={handleMessage} />
                 </div>
                 <p style={{
-          display: `${displayParagraph}`, color: 'green', fontWeight: 'bold', marginBottom: '10px', width: '60%', marginLeft: '20%',
+          display: `${displayParagraph}`, color: 'green', fontWeight: 'bold', marginBottom: '10px', width: '80%', marginLeft: '10%',
         }}
         >
           {language === "fr" ? messageSentFr : messageSentEn}
         </p>
         <p style={{
-          display: `${displayParagraph2}`, color: 'red', fontWeight: 'bold', marginBottom: '10px', width: '60%', marginLeft: '20%',
+          display: `${displayParagraph2}`, color: 'red', fontWeight: 'bold', marginBottom: '10px', width: '80%', marginLeft: '10%',
         }}
         >
           {language === "fr" ? messageCompeteFieldFr : messageCompeteFieldEn}
