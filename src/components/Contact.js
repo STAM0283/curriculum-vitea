@@ -59,8 +59,9 @@ const Contact = (props) => {
             })
           }
           else {
+            setDisplayParagraph2('block')
             setTimeout(() => {
-              setDisplayParagraph2('block');
+              setDisplayParagraph2('none');
             }, 5000);
           }
 
