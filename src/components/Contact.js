@@ -41,10 +41,9 @@ const Contact = (props) => {
             object,
             message,
           };
-          if (name !== '' || email !== '' || object !== '' || message !== '') {
+          if (name !== '' && email !== '' && object !== '' && message !== '') {
             axios.post("https://cv-contact.herokuapp.com/send-email", data)
             .then(response => {
-                console.log("my data", response);
                 setName("");
                 setEmail("");
                 setObject("");
