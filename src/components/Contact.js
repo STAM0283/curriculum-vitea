@@ -62,7 +62,7 @@ const Contact = (props) => {
             setDisplayParagraph2('block')
             setTimeout(() => {
               setDisplayParagraph2('none');
-            }, 5000);
+            }, 3000);
           }
 
     }
