@@ -43,11 +43,11 @@ const Contact = (props) => {
           };
           if (name !== '' && email !== '' && object !== '' && message !== '') {
             axios.post("https://cv-contact.herokuapp.com/send-email", data)
-            .then(response => {
-                setName("");
-                setEmail("");
-                setObject("");
-                setMessage("");
+            .then(() => {
+                setName('');
+                setEmail('');
+                setObject('');
+                setMessage('');
                 setDisplayParagraph('block');
                 setDisplayParagraph2('none');
                 setTimeout(() => {
@@ -55,11 +55,13 @@ const Contact = (props) => {
                 }, 5000);
 
             }).catch(() => {
-                console.log("message not sent")
+                console.log('message not sent')
             })
           }
           else {
-            setDisplayParagraph2('block');
+            setTimeout(() => {
+              setDisplayParagraph2('block');
+            }, 5000);
           }
 
     }
